@@ -3,7 +3,7 @@
 - [x] Crear proyecto
 - [x] Redactar Readme
 - [x] Agregar dependencias extra (bootstrap y webjars) y recargar Maven
-- [ ] Configurar conexion MySql en applicationProperties
+- [x] Configurar conexion MySql en applicationProperties
 
 ```java
 spring.datasource.url=jdbc:mysql://localhost:3306/flights?createDatabaseIfNotExist=true
@@ -19,7 +19,7 @@ spring.jpa.defer-datasource-initialization=true
 ```
 - [ ] Mejorar .gitIgnore
 
-- [ ] Entidad Flight
+- [x] Entidad Flight
 - [ ] Repositorio FlightRepository
 - [ ] Crear interfaz servicio flightService: CRUD y logica de negocio
 - [ ] Implementar interfaz servicio: flightServiceImpl
